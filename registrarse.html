@@ -5,6 +5,7 @@
 </head>
 <body>
 	<header>
+        <img src="images/logo.jpg" alt="Html icon" >
         <h1>SISTEMAS WEB</h1>
         <ul>
             <li><a href="clases.html">CLASES</a></li>
@@ -14,7 +15,8 @@
         </ul>
     </header>
     <section>
-    	<div id = "content_panel">
+    	<div id = "content_panel_registrarse">
+            <img src="images/logo.jpg" alt="Html icon" >
     		<div id = "left_registrar">
     			<p1>Registrarte</p1><br>	
     			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.</p>
@@ -22,9 +24,21 @@
     		<div id = "right_registrar">
     			<form action="" method="post" class="bootstrap-frm">
 				    <label>
-				        <span>Nombre :</span><br>
+				        <span>Nombre:</span><br>
 				        <input id="name" type="text" name="name" placeholder="Full Name" /><br>
 				    </label>
+
+                    <label>
+                        <span>Sexo:</span><br>
+                        <input type="radio" name="femenino" value="femenino"> Femenino
+                        <input type="radio" name="Masculino" value="Masculino"> Masculino<br><br>
+                    </label>  
+
+                    <label for="background-color">Color de polera:</label>
+                    <input id="background-color" type="color" /><br><br> 
+
+                    <label for="meeting">Fecha de nacimiento: </label>
+                    <input id="meeting" type="date" value="2015-01-01"/><br><br>
 				    
 				    <label>
 				        <span>Email :</span><br>
